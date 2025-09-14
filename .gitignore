@@ -1,13 +1,10 @@
-# Datasets
-data/
-
-# Python
-__pycache__/
-*.pyc
-
-# Virtual env
-.venv/
-
-# IDE
-.idea/
-.vscode/
+# Datasets 
+data/ 
+# Python 
+__pycache__/ 
+*.pyc 
+# Virtual env 
+.venv/ 
+# IDE 
+.idea/ 
+.vscode/ 
