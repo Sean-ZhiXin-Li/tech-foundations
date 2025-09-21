@@ -97,6 +97,25 @@ tech-foundations/
 
 ---
 
+## Week 2 Deliverables
+
+### Main Track: ROS 2 Humble on Windows
+- Installed and configured ROS 2 Humble on Windows.  
+- Fixed missing library issues (`_rclpy_pybind11`), adjusted PATH, and unblocked files.  
+- Verified functionality with **talker/listener demo**:
+  - Talker published `"Hello World: XXXX"`.
+  - Listener received messages in real time.  
+- Outcome: Basic pub-sub communication confirmed.
+
+### Side Track: Arduino UNO R4 WiFi + Servo MG90S
+- Wired the servo (Red → 5V, Brown → GND, Orange → D9).  
+- Uploaded test program (`servo_demo_code.ino`) using Arduino IDE.  
+- Servo rotated between 0° → 90° → 180° with 1s delay, looping continuously.  
+- Recorded a demo video as proof of concept.  
+- Outcome: First hardware control project completed.
+
+---
+
 ## Roadmap
 
 - **Week 1**: Setup (PyTorch, Fusion 360, Arduino IDE).  
