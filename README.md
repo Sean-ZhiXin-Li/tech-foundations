@@ -113,6 +113,7 @@ tech-foundations/
 - Servo rotated between 0° → 90° → 180° with 1s delay, looping continuously.  
 - Recorded a demo video as proof of concept.  
 - Outcome: First hardware control project completed.
+- [Watch Week 2 Servo Demo Video](https://github.com/Sean-ZhiXin-Li/tech-foundations/releases/tag/week2-demo)
 
 ---
 
