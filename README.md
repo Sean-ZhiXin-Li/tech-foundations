@@ -117,6 +117,24 @@ tech-foundations/
 
 ---
 
+Week 3 Deliverables
+Main Track: RL CartPole Baseline
+- Set up Stable-Baselines3 (SB3) PPO training on `CartPole-v1`.
+- Logged episode rewards and implemented moving average smoothing.
+- Generated reward curve visualization: `cartpole_reward_curve.png`.
+- Outcome: First reinforcement learning baseline established, preparing for future comparisons with IL and advanced controllers.
+
+Side Track: Fusion 360 – 2-Link Manipulator
+- Modeled Base, Link1 (160 × 20 × 5 mm, Ø5 mm holes), and Link2 (140 × 20 × 5 mm, Ø5 mm holes).
+- Added two bracket supports ("ears") on the Base to realistically hold Link1.
+- Assembled with Revolute Joints:
+  - Shoulder Joint (Base ↔ Link1)
+  - Elbow Joint (Link1 ↔ Link2)
+- Exported isometric screenshot: `2link_iso.png`.
+- Outcome: Functional CAD manipulator with realistic support structure, deliverable ready.
+
+---
+
 ## Roadmap
 
 - **Week 1**: Setup (PyTorch, Fusion 360, Arduino IDE).  
