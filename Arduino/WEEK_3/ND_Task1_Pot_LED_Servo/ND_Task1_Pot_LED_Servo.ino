@@ -31,12 +31,12 @@ void loop() {
   int potRaw = analogRead(PIN_POT);
 
   // Map to servo angle (0..180degrees), with clamping
-  int angle = map(potRaw, 300, 700, 0, 180);
+  int angle = map(potRaw, 0, 1023, 0, 180);
   if (angle < 0)   angle = 0;
   if (angle > 180) angle = 180;
 
   // Map to LED PWM (0..225), with clamping
-  int pwmVal = map(potRaw, 300, 700, 0, 225);
+  int pwmVal = map(potRaw, 0, 1023, 0, 225);
   if(pwmVal < 0)    pwmVal = 0;
   if (pwmVal > 225) pwmVal = 225;
 
