@@ -1,0 +1,80 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.5665222158519645 -0.4460590966158355 -0.6928808420446079 4.14043527692255
+  position -0.21942795819522323 -0.6867211918723319 2.904071839387919
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+E-puck {
+  hidden position_0_0 78.26541600722024
+  hidden position_0_1 78.18364235077424
+  hidden linearVelocity_0 0.03509380767021219 0.013613176590358995 -7.130455046109012e-06
+  hidden angularVelocity_0 0.0014576586166690783 -0.004408015996587394 -0.8821023437283552
+  hidden rotation_1 0 1 0 1.833592334592694
+  hidden linearVelocity_1 0.056520492675062865 0.021924268311461204 -2.5519644875071677e-06
+  hidden angularVelocity_1 -1.1353994942099628 2.922766645110048 -0.9028259606724327
+  hidden rotation_2 0 1 0 2.886445964128412
+  hidden linearVelocity_2 0.013631313486422344 0.005356365910702402 -1.6539462639908303e-06
+  hidden angularVelocity_2 -0.22625319347869505 0.5808931382296655 -0.8829340280175226
+  translation -0.34627307901822757 0.4369490190787191 -8.196353567016187e-05
+  rotation -0.002323204049295402 0.0015841399825167073 0.999996046603916 0.35362748804524097
+  controller "epuck_avoid"
+}
+Solid {
+  translation 0.6511410657933674 -8.544364200428927e-19 0.13771053281681736
+  rotation 2.340915245441365e-15 1 1.0277709469902313e-15 0.01786994687340058
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.7 0.7 0.7
+        roughness 0.7
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 0.3 0.3
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.3 0.3 0.3
+  }
+  physics Physics {
+  }
+  linearVelocity 0.0005439178176900172 6.010291715014004e-17 0.0001807239575022898
+  angularVelocity -4.38606627012411e-17 -0.0006839362363593174 2.8070824128794056e-16
+}
+Solid {
+  translation -0.3011870093795944 9.392877401550439e-18 0.11886877592214434
+  rotation -1.953402966756396e-17 0.9999999999999999 -1.1826216939380235e-17 1.5707973629057015
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.4 0.6 0.9
+        roughness 0.7
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.25 0.25
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.25 0.25 0.25
+  }
+  physics Physics {
+  }
+  linearVelocity -1.014741494159869e-06 -4.40847624489632e-17 -2.1089360767926162e-07
+  angularVelocity 4.583853296935581e-16 -8.11544818124287e-06 -8.357647907075964e-18
+}
