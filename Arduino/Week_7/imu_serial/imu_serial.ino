@@ -6,16 +6,14 @@ Adafruit_MPU6050 mpu;
 
 void setup() {
   Serial.begin(115200);
-  while (!Serial) {
-    ;
-  }
+  while (!Serial);
 
   if (!mpu.begin()) {
     Serial.println("MPU6050 not found!");
-    while (1) { ; }
+    while (1);
   }
 
-  Serial.println("MPU6050 ready.");
+  Serial.println("MPU6050 initialized.");
 }
 
 void loop() {
@@ -35,3 +33,4 @@ void loop() {
 
   delay(50);  // ~20Hz
 }
+
