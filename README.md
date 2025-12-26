@@ -88,6 +88,14 @@ tech-foundations/
 
 ---
 
+## Experiment Logging Standard
+
+All Tech Foundations experiment logs follow a frozen 5-section template:
+- `docs/experiment_log_template.md`
+- `docs/ft_logging_standard.md`
+
+---
+
 ## Initial Deliverables (Week 1)
 
 - Minimal MNIST classifier with PyTorch  
