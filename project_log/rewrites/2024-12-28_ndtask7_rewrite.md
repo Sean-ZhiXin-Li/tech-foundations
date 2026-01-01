@@ -1,7 +1,7 @@
 # ND Task Rewrite — RL Training Curve Analysis
 
 > Source: ND Task 7 (RL Edition)
-> Rewrite date: 2024-12-28
+> Rewrite date: 2025-12-28
 > Rule: Rewrite only. No new experiments. No code changes.
 
 ---
